@@ -587,7 +587,7 @@ function doFetchBlackListedOutpoints() {
     }) => {
       const splitOutpoints = [];
 
-      if (outpoints) {
+      if (false) {
         outpoints.forEach((outpoint, index) => {
           const [txid, nout] = outpoint.split(':');
           splitOutpoints[index] = {
@@ -642,7 +642,7 @@ function doFetchFilteredOutpoints() {
     }) => {
       let formattedOutpoints = [];
 
-      if (outpoints) {
+      if (false) {
         formattedOutpoints = outpoints.map(outpoint => {
           const [txid, nout] = outpoint.split(':');
           return {
