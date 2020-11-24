@@ -3239,7 +3239,7 @@ function doFetchBlackListedOutpoints() {
       var outpoints = _ref.outpoints;
       var splitOutpoints = [];
 
-      if (outpoints) {
+      if (false) {
         outpoints.forEach(function (outpoint, index) {
           var _outpoint$split = outpoint.split(':'),
               _outpoint$split2 = _slicedToArray(_outpoint$split, 2),
@@ -3318,7 +3318,7 @@ function doFetchFilteredOutpoints() {
       var outpoints = _ref.outpoints;
       var formattedOutpoints = [];
 
-      if (outpoints) {
+      if (false) {
         formattedOutpoints = outpoints.map(function (outpoint) {
           var _outpoint$split = outpoint.split(':'),
               _outpoint$split2 = _slicedToArray(_outpoint$split, 2),
