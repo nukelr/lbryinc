@@ -1,6 +1,6 @@
 # lbryinc
 lbryinc is a module which contains common api.lbry.io and rewards code shared between lbry-desktop and lbry-android.
-
+This fork removes the filters on content
 ## Installation
 Add `lbryinc` as a dependency to your `package.json` file.
 `"lbryinc": "lbryio/lbryinc"`
